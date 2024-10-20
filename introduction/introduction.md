@@ -48,4 +48,4 @@ Please make sure you can sign in to your Oracle Cloud Paid Account.
 
 - **Author** - Aijaz Fatima, Product Manager
 - **Contributors** - Mandy Pang, Senior Principal Product Manager
-- **Last Updated By/Date** - Aijaz Fatima, Product Manager, August 2024
+- **Last Updated By/Date** - Aijaz Fatima, Product Manager, October 2024
