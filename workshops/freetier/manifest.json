@@ -1,5 +1,5 @@
 {
-  "workshoptitle": "Build an e-commerce application with HeatWave GenAI",
+  "workshoptitle": "Build an E-Commerce Application with Heatwave GenAI",
     "help": "livelabs-help-oci_us@oracle.com",
     "tutorials": [
         {
@@ -25,7 +25,7 @@
         },
 
         {
-          "title": "Lab 3: Build HeatWave E-Commerce Application",
+          "title": "Lab 3: Build an E-Commerce Application with Heatwave GenAI",
           "filename": "../../ecommerce-app/ecommerce-app.md"
         },
 

@@ -26,11 +26,9 @@ The following diagram illustrates HeatWave components at a glance.
 
 In this lab, you will be guided through the following steps:
 
-1. Setup MySQL Shell for Visual Studio Code.
-2. Create a HeatWave instance.
-3. Connect to the HeatWave instance from Visual Studio Code.
-4. Automatically generate product review summary.
-5. Summarize and translate product descriptions and product review summary in your preferred language.
+1. Create a HeatWave instance.
+2. Create a Compute instance.
+3. Build an e-commerce application with Heatwave GenAI.
 
 ## Prerequisites
 

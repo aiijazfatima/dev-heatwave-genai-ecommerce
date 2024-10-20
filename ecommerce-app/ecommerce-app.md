@@ -1,4 +1,4 @@
-# Build HeatWave E-Commerce Application
+# Build an E-Commerce Application with Heatwave GenAI
 
 ## Introduction
 
