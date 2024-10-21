@@ -1,9 +1,9 @@
-# Create Linux Compute Instance
+# Create a Compute Instance
 
 
 ## Introduction
 
-Oracle Cloud Infrastructure Compute lets you provision and manage compute hosts, known as instances . You can create instances as needed to meet your compute and application requirements. After you create an instance, you can access it securely from your computer or cloud shell.
+Oracle Cloud Infrastructure Compute lets you provision and manage compute hosts, known as instances. You can create instances as needed to meet your compute and application requirements. After you create an instance, you can access it securely from your computer or cloud shell.
 
 
 **Create Linux Compute Instance**
@@ -23,7 +23,7 @@ In this lab, you will be guided through the following tasks:
 - An Oracle Free Tier or Paid Cloud Account
 - You have completed Lab 2.
 
-## Task 1: Create Compute Instance
+## Task 1: Create a Compute Instance
 
 You need a compute instance to connect to the Heatwave instance. 
 

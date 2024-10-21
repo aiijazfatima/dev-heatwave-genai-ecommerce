@@ -59,7 +59,7 @@ _Estimated Time:_ 20 minutes
 
 If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
 
-1. If you are a Windows user, click the Start menu from your windows machine and search Git Bash. Select the Git Bash, which will take you to the Git Bash terminal.
+1. If you are a Windows user, click the **Start** menu from your windows machine and search **Git Bash**. Select **Git Bash**, which will take you to the Git Bash terminal.
 
 2. From a terminal window on your local system, connect to the compute instance.
 

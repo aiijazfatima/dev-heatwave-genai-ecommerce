@@ -4,13 +4,15 @@ HeatWave GenAI lets organizations easily process and analyze vast amounts of pro
 
 HeatWave GenAI is unique because it seamlessly integrates large language models (LLMs) and embedding generation within the database, eliminating the need for external services. This integration enhances performance and security, simplifies application complexity, and reduces costs as it runs on CPUs. HeatWave GenAI integrates seamlessly with other in-database HeatWave capabilities such as machine learning, analytics, and Lakehouse, opening up a new class of applications and providing higher-quality responses. With HeatWave GenAI, you can effortlessly generate new and realistic content, speed up manual or repetitive tasks like summarizing large documents, and engage in natural language interactions.
 
+![HeatWave GenAI](./images/1-heatwave-genai.png "HeatWave GenAI")
+
 With HeatWave GenAI capabilities such as native JavaScript and multi-lingual support, you can use HeatWave GenAI in e-commerce applications and improve user purchasing experience by automatically performing sentiment analysis and summarizing and translating two separate summaries for reviews with positive and negative sentiments.
 
-![HeatWave GenAI](./images/1-heatwave-genai.png "HeatWave GenAI")
+![HeatWave GenAI Review](./images/reviews.png "HeatWave GenAI Review")
 
 ## About this Workshop
 
-In this LiveLab, you will first setup Visual Studio Code. You will then create a HeatWave instance, and connect to it from Visual Studio Code. Subsequently, you will use HeatWave GenAI to automatically generate product review summary and sumamrize and translate product descriptions and product review summary in your preferred language.
+In this LiveLab, you will create a HeatWave instance and a compute instance. Subsequently, you will use HeatWave GenAI to perform sentiment analysis of product reviews and summarize and translate product review summary in your preferred language.
 
 _Estimated Time:_ 1.5 hours
 
