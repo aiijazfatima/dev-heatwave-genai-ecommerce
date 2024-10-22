@@ -101,4 +101,4 @@ You may now **proceed to the next lab**.
 
 - **Author** - Aijaz Fatima, Product Manager
 - **Contributors** - Mandy Pang, Senior Principal Product Manager
-- **Last Updated By/Date** - Aijaz Fatima, Product Manager, September 2024
+- **Last Updated By/Date** - Aijaz Fatima, Product Manager, October 2024

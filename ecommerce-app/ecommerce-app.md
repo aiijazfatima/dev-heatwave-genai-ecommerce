@@ -4,7 +4,7 @@
 
 You can use HeatWave to create new applications using the LAMP stack (Linux, Apache, MySQL, PHP) or other software stacks.
 
-In this lab, you will build a LAMP stack and deploy a prebuilt  HeatWave e-commerce application. The in-database LLMs of HeatWave GenAI automatically analyzes the sentiment of user submitted reviews, and summarizes and translate review summaries into other languages. 
+In this lab, you will build a LAMP stack and deploy a prebuilt  HeatWave e-commerce application. The in-database LLMs of HeatWave GenAI automatically analyzes the sentiment of user submitted reviews, and summarizes and translates review summaries into other languages. 
 
 ### Objectives
 
@@ -20,7 +20,7 @@ In this lab, you will be guided through the following tasks:
 
 ### Prerequisites
 
-- Completed Lab 3.
+- Completed Lab 2.
 
 ### About the HeatWave E-Commerce Application
 
@@ -101,7 +101,7 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
     For example:
 
     ```bash
-    <copy>mysqlsh admin@10.0.1.100
+    <copy>mysqlsh admin@10.0.1.100</copy>
     ``` 
 
     ![Connect to HeatWave](./images/connect-heatwave-instance.png "Connect to HeatwWave")
@@ -313,8 +313,6 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
      ```bash
     <copy><?php
     // Database credentials
-    <?php
-    // Database credentials
     define('DB_SERVER', '10.0.1.241');// HeatWave instance IP address
     define('DB_USERNAME', 'admin');
     define('DB_PASSWORD', 'Password123!');
@@ -461,13 +459,17 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
 
 8.  Replace the following:
 
-    - **your\_mysql\_host**: Specify the IP address of the HeatWave instance, **heatwave-genai-db**. For example, 10.0.0.123.
+    - **your\_mysql\_host**: Specify the IP address of the HeatWave instance, **heatwave-genai-dbs**. For example, 10.0.0.123.
     - **your\_username**: Specify the username you had used for the Heatwave instance. If you arefollowing the lab instructions, specify **admin**.
     - **your\_password**: Specify the pasword you used when creating the HeatWave instance.
     
     Note to not change **ecommerce** as it is the schema name that we had specified for the vector store.
 
     ![Updated ecommerce interace](./images/updated-ecommerce.png "Updated ecommerce interace")
+
+9. Click ctrl+O, followed by **Enter** to save the file.
+
+10. Click ctrl+X to exit the editor.
 
 ## Task 7: Test HeatWave E-Commerce Application
 
@@ -481,7 +483,7 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
     
     http://129.153.218.143/genai_ecommerce_app/ecommerce.php
 
-2. You'll see a ecommerce page  with a text input field where you can enter reviews.
+2. You'll see a ecommerce page  with a text input field where you can enter reviews. The application will send your review to HeatWave GenAI and analyze the sentiment.
 
     ![Input field](./images/input-field.png "Input field")
 
@@ -501,22 +503,23 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
     <copy>This T-Shirt is not up to the mark. The material is not durable enough and the washing instructions are not clear. I would not recommend this product to anyone looking for a long-lasting and easy-to-care-for T-Shirt. </copy>
     ```
 
-    The application will send your review to HeatWave GenAI and analyze the sentiment.
+    ![Enter your reviews](./images/analyze-sentiment.png "Enter your reviews")
 
-    ![Enter your questions](./images/analyze-sentiment.png "Enter your questions")
+4. HeatWave GenAI analyzes your review and tells you whether the review was positive or negative review.
 
-4. Enter all reviews into the input field and click **Summarize & Translate** to generate a summary of all reviews.
+    ![Sentiment analysis](./images/sentiment-analysis.png "Sentiment analysis")
+
+5. If you want to generate a summary of all reviews in any other language, enter the reviews in the input field, select your preferred langauge from the drop down list, and click **Summarize & Translate**.
 
     ```bash
-    <copy>I highly recommend this T-Shirt. The softness of the cotton material and the comfortable fit make it perfect for everyday wear. The washing instructions are clear and easy to follow, ensuring that the T-Shirt retains its quality. The T-Shirt is made from high-quality cotton and is perfect for casual outings. However, the lack of bleach instructions may be a concern for some customers. Overall, I would rate it 3 out of 5 stars. This T-Shirt is not up to the mark. The material is not durable enough and the washing instructions are not clear. Simply awful. I would not recommend this product to anyone looking for a long-lasting and easy-to-care-for T-Shirt. This T-Shirt is not up to my expectations. The material is not breathable enough and the size is too small. I would not recommend this product to others. This T-Shirt is a decent choice for those who prefer soft fabrics and special occasion clothes. However, the lack of bleach instructions may be a concern for some. Overall, it is a good option for casual outings. Poor quality item and doesn't meet its description. False selling. I've recently started going to the gym so needed something other than my normal T-Shirts that I was using. These were on offer for a pack of 3, but even without the offer, they are great value for money. They fit well, and the material is breathable so it's perfect for running on the treadmill which is my main workout routine currently. The quality is excellent, and hold up well after going through the washing machine; No loss of colour, and have retained their shape. Nice product. Fits well. Selected colours all good. Will see how they wear over time, but would currently buy again. Same as the last ones I bought, comfortable, breathable and good t run in but have a strange smell. Hopefully washing them will fix it. These training tops are great for exercise. Loose fitting and stretchy enough to have full range of movement. They have worked well for fitness classes, cardio workouts and strength training. Very comfortable regardless of activity, and do allow you to cool down quicker. If they had a well known brand logo printed on them, you would not know the difference between these and the ones at triple the price. Very happy with them. They are not very durable. just a little bit on the large side, and I’m normally a large, sometimes XL. They have "bobbled" after only 2 washes. Bought this product thinking they look very similar to big brand version, but in reality they are not. The fabric (i don’t know what it is?) is not like that you’d expect, it feels strange and isn’t comfortable in gym in terms of making me feel hot and sweaty instead of wicking away that feeling. Don’t recommend, wouldn’t buy again. Are you kidding they are enormous, bought medium for tighter fit but are like a tent! Not figure hugging at all not even close. Straight up n down.</copy>
+    <copy>Very happy with them. They are not very durable. just a little bit on the large side, and I’m normally a large, sometimes XL. They have "bobbled" after only 2 washes. Bought this product thinking they look very similar to big brand version, but in reality they are not. The fabric (i don’t know what it is?) is not like that you’d expect, it feels strange and isn’t comfortable in gym in terms of making me feel hot and sweaty instead of wicking away that feeling. Don’t recommend, wouldn’t buy again. Are you kidding they are enormous, bought medium for tighter fit but are like a tent! Not figure hugging at all not even close. Straight up n down.</copy>
     ```
 
-    The application will send your review to HeatWave GenAI and generate a summary of all reviews.
+    ![Summarize & Translate](./images/summarize-translate.png "Summarize & Translate")
 
-5. If you want to generate a summary of all reviews in any other language, enter the reviews in the input field, select your preferred langauge from the drop down list, and click ****Summarize & Translate**.
+6. HeatWave GenAI summarizes and translates your review in your preferred language.
 
-
-    ![Enter your questions](./images/analyze-sentiment.png "Enter your questions")
+    ![Summarize & Translate output](./images/spanish-output.png "Summarize & Translate output")
 
 You may now **proceed to the next lab**.
 
@@ -534,5 +537,5 @@ You may now **proceed to the next lab**.
 ## Acknowledgements
 
 - **Author** - Aijaz Fatima, Product Manager 
-- **Contributors** - Perside Foster, MySQL Principal Solution Engineer
+- **Contributors** - Onur Kocberber, Director of Development, HeatWave
 - **Last Updated By/Date** - Aijaz Fatima, Product Manager, September 2024
