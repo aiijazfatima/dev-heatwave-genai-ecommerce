@@ -28,11 +28,7 @@ This application provides a user-friendly web interface for interacting with Hea
 
 #### HeatWave E-Commerce Application Architecture
 
-For the e-commerce application, you only need a front-end web server and a REST middleware layer with HeatWave GenAI. The components in this application are as following:
-
-- Next.js Front-End
-- Strapi Middleware
-- HeatWave GenAI
+For the e-commerce application, you need a web browser. From the web browser you can interact with the web server, which is Apache running PHP files, and the database is HeatWave supports generative AI capabilities.
 
     ![E-commerce application components](./images/architecture.png "E-commerce application components")
 
@@ -43,13 +39,6 @@ The following diagram provides details of how the different components of the He
 - The HeatWave RAG class interacts with the HeatWave instance.
 
     ![E-commerce application architecture](./images/ecom-architecture.png "E-commerce application architecture")
-
-#### Overview
-
-- Backend: Linux, Apache, PHP, and HeatWave integration
-- Frontend: HTML and CSS for a responsive design
-
-This solution bridges the gap between complex database operations and user-friendly interaction, making it easy for users to leverage the power of HeatWave GenAI capabilities through a simple interface.
 
 _Note:_ This application code is intended for educational purposes only. It is designed to help developers learn and practice application development skills with HeatWave on OCI. The code is not designed to be used in a production environment.
 
@@ -538,4 +527,4 @@ You may now **proceed to the next lab**.
 
 - **Author** - Aijaz Fatima, Product Manager 
 - **Contributors** - Onur Kocberber, Director of Development, HeatWave
-- **Last Updated By/Date** - Aijaz Fatima, Product Manager, September 2024
+- **Last Updated By/Date** - Aijaz Fatima, Product Manager, October 2024
