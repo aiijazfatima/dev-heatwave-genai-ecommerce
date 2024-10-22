@@ -20,7 +20,6 @@ In this lab, you will be guided through the following tasks:
 
 ### Prerequisites
 
-- An Oracle Free Tier or Paid Cloud Account
 - You have completed Lab 2.
 
 ## Task 1: Create a Compute Instance
