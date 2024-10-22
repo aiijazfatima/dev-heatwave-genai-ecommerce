@@ -28,9 +28,7 @@ This application provides a user-friendly web interface for interacting with Hea
 
 #### HeatWave E-Commerce Application Architecture
 
-For the e-commerce application, you need a web browser. From the web browser you can interact with the web server, which is Apache running PHP files, and the database is HeatWave supports generative AI capabilities.
-
-    ![E-commerce application components](./images/architecture.png "E-commerce application components")
+For the e-commerce application, you need a web browser. From the web browser you can interact with the web server, which is Apache running PHP files, and the database is HeatWave that supports generative AI capabilities.
 
 The following diagram provides details of how the different components of the HeatWave e-commerce application are structured and how they interact with each other. The arrows indicate the flow of data and interactions between the components. For example:
 
