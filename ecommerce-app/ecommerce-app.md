@@ -1,4 +1,4 @@
-# Build an E-Commerce Application with Heatwave GenAI
+# Build an E-Commerce Application with HeatWave GenAI
 
 ## Introduction
 
@@ -44,7 +44,7 @@ _Note:_ This application code is intended for educational purposes only. It is d
 
 _Estimated Time:_ 20 minutes
 
-## Task 1: Connect to the Heatwave Instance
+## Task 1: Connect to the HeatWave Instance
 
 If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
 
@@ -79,12 +79,12 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
 4. After MySQL Shell is installed, connect to the endpoint of the DB system.
 
     ```bash
-    <copy>mysqlsh <DBSystemName>@<DBSystemEndpointIPAddress> </copy>
+    <copy>mysqlsh <DBAdminName>@<DBSystemEndpointIPAddress> </copy>
     ```
 
     Replace the following:
     
-    - DBSystemName: The name of the DB system that you created in  Lab 1, Task 5, Step 5.
+    - DBAdminName: The admin name of the DB system that you created in  Lab 1, Task 5, Step 5.
     - DBSystemEndpointIPAddress: The DB system private IP address that you noted in Lab 1, Task 5, Step 19.
 
     For example:
@@ -449,7 +449,7 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
 8.  Replace the following:
 
     - **your\_mysql\_host**: Specify the IP address of the HeatWave instance, **heatwave-genai-dbs**. For example, 10.0.0.123.
-    - **your\_username**: Specify the username you had used for the Heatwave instance. If you arefollowing the lab instructions, specify **admin**.
+    - **your\_username**: Specify the username you had used for the HeatWave instance. If you arefollowing the lab instructions, specify **admin**.
     - **your\_password**: Specify the pasword you used when creating the HeatWave instance.
     
     Note to not change **ecommerce** as it is the schema name that we had specified for the vector store.

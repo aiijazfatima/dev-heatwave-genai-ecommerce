@@ -24,7 +24,7 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 1: Create a Compute Instance
 
-You need a compute instance to connect to the Heatwave instance. 
+You need a compute instance to connect to the HeatWave instance. 
 
 1. Click the **Navigation menu** in the upper left, navigate to **Compute**, and under **Compute**, select **Instances**.
   

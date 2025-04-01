@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will create a create a compartment, a Virtual Cloud Network,  and a Heatwave instance.  
+In this lab, you will create a create a compartment, a Virtual Cloud Network,  and a HeatWave instance.  
 
 _Estimated Time:_ 30 minutes
 
@@ -200,11 +200,11 @@ In this lab, you will be guided through the following tasks:
 
 11. In **Configure HeatWave cluster** page, click **Change shape**.
 
-    ![Change HeatWave shape](./images/27-change-heatwave-shape.png "Change Heatwave shape")
+    ![Change HeatWave shape](./images/27-change-heatwave-shape.png "Change HeatWave shape")
 
 12. In the **Browse all shapes** page, select **HeatWave.512** shape, and click **Select a shape**. The HeatWave Shape must be HeatWave.512.
 
-    ![Change HeatWave shape](./images/28-select-heatwave-512.png "Change Heatwave shape")
+    ![Change HeatWave shape](./images/28-select-heatwave-512.png "Change HeatWave shape")
 
 13. Select **HeatWave Lakehouse**, and click **Save changes**. HeatWave Lakehouse must be enabled on the DB system.
 
@@ -236,7 +236,7 @@ In this lab, you will be guided through the following tasks:
 
 19. In the **Connections** tab, note the **Private IP address** of the DB system, which is the HeatWave endpoint.
 
-    ![Heatwave endpoint](./images/35-heatwave-endpoint.png "Heatwave endpoint")
+    ![HeatWave endpoint](./images/35-heatwave-endpoint.png "HeatWave endpoint")
 
 You may now **proceed to the next lab**.
 
