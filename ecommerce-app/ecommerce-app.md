@@ -407,7 +407,7 @@ If you are a Linux, Mac, or Windows 10 Powershell user, skip the first step.
 2. Download the application code.
 
     ```bash
-    <copy>sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/deafmkZGGCfVPr8jMo-V8lZVvYfpZVjnrzPbSFSL7C4nv4dIwkrUziHl1WxgATQd/n/mysqlpm/b/heatwave_genai_ecommerce/o/genai_ecommerce_app.zip</copy>
+    <copy>sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/U-dg-MFHKdTwWwJ2yQhpI7rk2gXqVm_sYr7H-Do6m1dwtVjZo1mwgtudFUXqZDzY/n/mysqlpm/b/heatwave_genai_ecommerce/o/genai_ecommerce_app.zip</copy>
     ```
     ![Download application code](./images/application-code.png "Download application code")
 
@@ -527,4 +527,4 @@ You may now **proceed to the next lab**.
 
 - **Author** - Aijaz Fatima, Product Manager 
 - **Contributors** - Onur Kocberber, Director of Development, HeatWave
-- **Last Updated By/Date** - Aijaz Fatima, Product Manager, October 2024
+- **Last Updated By/Date** - Aijaz Fatima, Product Manager, April 2025
