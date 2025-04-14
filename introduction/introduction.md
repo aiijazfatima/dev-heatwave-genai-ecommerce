@@ -6,13 +6,29 @@ HeatWave GenAI is unique because it seamlessly integrates large language models 
 
 ![HeatWave GenAI](./images/1-heatwave-genai.png "HeatWave GenAI")
 
-With HeatWave GenAI capabilities such as native JavaScript and multi-lingual support, you can use HeatWave GenAI in e-commerce applications and improve user purchasing experience by automatically performing sentiment analysis and summarizing and translating two separate summaries for reviews with positive and negative sentiments.
+### About the HeatWave E-Commerce Application
 
-![HeatWave GenAI Review](./images/reviews.png "HeatWave GenAI Review")
+This application provides a user-friendly web interface for interacting with HeatWave GenAI. It enables you to submit a review and then analyze the sentiment of submitted review. You can also summarize and translate review summaries into other languages.
 
+#### HeatWave E-Commerce Application Architecture
+
+For the e-commerce application, in the front end you need a web browser with HTML and CSS for a responsive interface. From the web browser you can interact with the web server, Apache, on which we will run PHP files. The database is HeatWave, which supports generative AI capabilities, making it easy for users to leverage the power of HeatWave GenAI capabilities through a simple interface.
+
+![E-commerce application architecture](./images/architecture-new.png "E-commerce application architecture")
+
+The following diagram provides details of how the different components of the HeatWave e-commerce application are structured and how they interact with each other. The arrows indicate the flow of data and interactions between the components. For example:
+
+- The web browser interacts with the web server.
+- The PHP Runtime manages the ecommerce.php and HeatWave RAG class.
+- The HeatWave RAG class interacts with the HeatWave instance.
+
+    ![E-commerce application architecture](./images/ecom-architecture.png "E-commerce application architecture")
+    
 ## About this Workshop
 
 In this LiveLab, you will create a HeatWave instance and a compute instance. Subsequently, you will use HeatWave GenAI to perform sentiment analysis of product reviews and summarize and translate product review summary in your preferred language.
+
+![HeatWave GenAI Review](./images/reviews.png "HeatWave GenAI Review")
 
 _Estimated Time:_ 1.5 hours
 
@@ -50,4 +66,4 @@ Please make sure you can sign in to your Oracle Cloud Paid Account.
 
 - **Author** - Aijaz Fatima, Product Manager
 - **Contributors** - Mandy Pang, Senior Principal Product Manager
-- **Last Updated By/Date** - Aijaz Fatima, Product Manager, October 2024
+- **Last Updated By/Date** - Aijaz Fatima, Product Manager, April 2025

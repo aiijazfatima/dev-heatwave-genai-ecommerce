@@ -2,16 +2,16 @@
 
 ## Introduction
 
-You can use HeatWave to create new applications using the LAMP stack (Linux, Apache, MySQL, PHP) or other software stacks.
+You can create new applications by using HeatWave with LAMP stack (Linux, Apache, MySQL, PHP) or any other software stack.
 
-In this lab, you will build a LAMP stack and deploy a prebuilt  HeatWave e-commerce application. The in-database LLMs of HeatWave GenAI automatically analyzes the sentiment of user submitted reviews, and summarizes and translates review summaries into other languages. 
+In this lab, you will build a LAMP stack and deploy a prebuilt HeatWave e-commerce application. The in-database LLMs of HeatWave GenAI automatically analyze the sentiment of user-submitted reviews and summarize and translate review summaries into other languages. 
 
 ### Objectives
 
 In this lab, you will be guided through the following tasks:
 
 - Connect to the HeatWave instance.
-- Set up stored procedures.
+- Set up stored procedures for sentiment analysis.
 - Install Apache App Server.
 - Install PHP.
 - Create HeatWave/PHP connect test app.
@@ -21,24 +21,6 @@ In this lab, you will be guided through the following tasks:
 ### Prerequisites
 
 - Completed Lab 2.
-
-### About the HeatWave E-Commerce Application
-
-This application provides a user-friendly web interface for interacting with HeatWave GenAI. It enables you to submit a review and then analyze the sentiment of submitted review. You can also summarize and translate review summaries into other languages.
-
-#### HeatWave E-Commerce Application Architecture
-
-For the e-commerce application, in the front end you need a web browser with HTML and CSS for a responsive interface. From the web browser you can interact with the web server, Apache, on which we will run PHP files. The database is HeatWave, which supports generative AI capabilities, making it easy for users to leverage the power of HeatWave GenAI capabilities through a simple interface.
-
-![E-commerce application architecture](./images/architecture-new.png "E-commerce application architecture")
-
-The following diagram provides details of how the different components of the HeatWave e-commerce application are structured and how they interact with each other. The arrows indicate the flow of data and interactions between the components. For example:
-
-- The web browser interacts with the web server.
-- The PHP Runtime manages the ecommerce.php and HeatWave RAG class.
-- The HeatWave RAG class interacts with the HeatWave instance.
-
-    ![E-commerce application architecture](./images/ecom-architecture.png "E-commerce application architecture")
 
 _Note:_ This application code is intended for educational purposes only. It is designed to help developers learn and practice application development skills with HeatWave on OCI. The code is not designed to be used in a production environment.
 
